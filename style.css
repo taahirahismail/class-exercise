@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+table {
+    width: 95%;
+    margin: auto;
+}
+
+th {
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.mu_21 {
+    background-color: grey;
+}
+
+.mo_21 {
+    color: white;
+    background-color: black;
+}
+
+.fu_21 {
+    color: white;
+    background-color: red;
+}
+
+.fo_21 {
+    background-color: pink;
+}
+
+.au_21 {
+    background-color: yellow;
+}
+
+ul {
+    margin: 25px;
+    list-style-type: none;
+}
+
+ul li:before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url(./img/download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
