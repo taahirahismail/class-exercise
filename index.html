@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This Exercise Thing lol</title>
     <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
 </head>
 <body>
     <header>
         <h1>Class Info</h1>
     </header>
+
+    <hr><br>
 
     <table>
         <tr>
@@ -231,6 +237,8 @@
         </tr>
     </table>
 
+    <br><hr>
+
     <ul>
         <li>Males under 21: 11</li>
         <li>Males over 21: 12</li>
@@ -238,5 +246,46 @@
         <li>Females over 21: 7</li>
         <li>A: 1</li>
     </ul> 
+
+    <hr><br>
+
+    <div class="contactForm">
+        <h3>What's Up With You Homie?</h3><br>
+        <form action="https://formspree.io/f/xpzekrqp" method="POST">
+            <div>
+             <label>
+            Name:
+            <input type="text" name="name" placeholder="Please enter your name" class="infoInput">
+             </label>   
+            </div><br>
+
+            <div>
+             <label>
+            Email:
+             <input type="email" name="email" placeholder="Please enter your email" class="infoInput">
+             </label>
+            </div><br>
+
+            <div>
+             <label>
+            Message:
+             <textarea name="message" placeholder="Say what you wanna say girl" id="message"></textarea>
+             </label>
+            </div><br>
+
+        <button type="submit" id="btn">Submit</button>
+        </form>
+    </div><br>
+
+    <hr><br>
+
+    <div class="icons">
+        <footer>
+            <a href="#"><img src="./img/icons8-twitter-circled.gif" alt="twticon"></a>
+            <a href="#"><img src="./img/icons8-instagram.gif" alt="instaicon"></a>
+            <a href="#"><img src="./img/icons8-linkedin-circled.gif" alt="liicon"></a>
+            <a href="#"><img src="./img/icons8-github.gif" alt="ghicon"></a>
+        </footer>
+    </div>
 </body>
 </html>
